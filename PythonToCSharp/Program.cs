@@ -130,6 +130,7 @@ namespace PythonToCSharp
                 for (int j = 0; j < pSigma; j++)
                 {
                     sigmaMax.Add(MaxList(FromToList(Y, i, i + pSigma)));
+
                 }
             }
             return sigmaMax;
